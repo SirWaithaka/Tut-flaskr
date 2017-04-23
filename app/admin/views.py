@@ -191,7 +191,7 @@ def list_employees():
     """
     check_admin()
 
-    employess = Employee.query.all()
+    employees = Employee.query.all()
     return render_template('admin/employees/employees.html', employees=employees, title="Employees")
 
 
